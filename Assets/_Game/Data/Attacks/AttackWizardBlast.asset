@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ddd266d06704f3fa1c1cd749ec34c6, type: 3}
+  m_Name: AttackWizardBlast
+  m_EditorClassIdentifier: Assembly-CSharp::FiveNightAnomaly.Combat.ProjectileAttack
+  damage: 30
+  heavy: 1
+  tip: {x: 1.1707, y: 0.4752}
+  swingSound: {fileID: 8300000, guid: 0da0320aaa4c14bf0877e694b05a24a9, type: 3}
+  releaseSound: {fileID: 0}
+  volume: 0.95
+  pitch: 1
+  projectile: {fileID: 7153140258028598543, guid: f2e2677c8b23d4737802a49ed8a8a4cb, type: 3}
+  speed: 7
+  range: 10
+  depth: 0.35
+  area: {x: 3, y: 3}
+  scale: 1.7
+  impactEffect: {fileID: 3981311641946332472, guid: b94c478063aa34765b30f17b026854c3, type: 3}
+  effectOnGround: 1
+  impactSound: {fileID: 8300000, guid: accf4412821914ff4b52a7d0cf48ed2b, type: 3}

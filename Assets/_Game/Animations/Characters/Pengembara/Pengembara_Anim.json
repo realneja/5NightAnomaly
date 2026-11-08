@@ -1,0 +1,976 @@
+{
+ "character": "Pengembara",
+ "ppu": 128,
+ "canvas": [
+  3.25,
+  2.125
+ ],
+ "sampleRate": 48,
+ "walkSpeed": 1.36,
+ "hands": [
+  {
+   "name": "Staff",
+   "prefix": "Pengembara",
+   "attackTip": [
+    1.1858,
+    0.327
+   ],
+   "chargeTip": [
+    1.3408,
+    0.5433
+   ],
+   "chargeGlow": [
+    0.8502,
+    0.8207
+   ],
+   "clips": [
+    {
+     "name": "Idle",
+     "loop": true,
+     "frames": [
+      {
+       "sprite": "Pengembara_Idle_0",
+       "duration": 0.125
+      },
+      {
+       "sprite": "Pengembara_Idle_1",
+       "duration": 0.125
+      },
+      {
+       "sprite": "Pengembara_Idle_2",
+       "duration": 0.125
+      },
+      {
+       "sprite": "Pengembara_Idle_3",
+       "duration": 0.125
+      },
+      {
+       "sprite": "Pengembara_Idle_4",
+       "duration": 0.125
+      },
+      {
+       "sprite": "Pengembara_Idle_5",
+       "duration": 0.125
+      },
+      {
+       "sprite": "Pengembara_Idle_6",
+       "duration": 0.125
+      },
+      {
+       "sprite": "Pengembara_Idle_7",
+       "duration": 0.125
+      },
+      {
+       "sprite": "Pengembara_Idle_8",
+       "duration": 0.125
+      },
+      {
+       "sprite": "Pengembara_Idle_9",
+       "duration": 0.125
+      },
+      {
+       "sprite": "Pengembara_Idle_10",
+       "duration": 0.125
+      },
+      {
+       "sprite": "Pengembara_Idle_11",
+       "duration": 0.125
+      }
+     ],
+     "events": []
+    },
+    {
+     "name": "Walk",
+     "loop": true,
+     "frames": [
+      {
+       "sprite": "Pengembara_Walk_0",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "Pengembara_Walk_1",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "Pengembara_Walk_2",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "Pengembara_Walk_3",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "Pengembara_Walk_4",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "Pengembara_Walk_5",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "Pengembara_Walk_6",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "Pengembara_Walk_7",
+       "duration": 0.041666666666666664
+      }
+     ],
+     "events": [
+      {
+       "frame": 0,
+       "function": "OnFootstep"
+      },
+      {
+       "frame": 4,
+       "function": "OnFootstep"
+      }
+     ]
+    },
+    {
+     "name": "Attack",
+     "loop": false,
+     "frames": [
+      {
+       "sprite": "Pengembara_Attack_0",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "Pengembara_Attack_1",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "Pengembara_Attack_2",
+       "duration": 0.10416666666666666
+      },
+      {
+       "sprite": "Pengembara_Attack_3",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "Pengembara_Attack_4",
+       "duration": 0.10416666666666666
+      },
+      {
+       "sprite": "Pengembara_Attack_5",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "Pengembara_Attack_6",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "Pengembara_Attack_7",
+       "duration": 0.0625
+      }
+     ],
+     "events": [
+      {
+       "frame": 2,
+       "function": "OnAttackSwing"
+      },
+      {
+       "frame": 4,
+       "function": "OnAttackImpact"
+      }
+     ]
+    },
+    {
+     "name": "Charge",
+     "loop": true,
+     "frames": [
+      {
+       "sprite": "Pengembara_Charge_0",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "Pengembara_Charge_1",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "Pengembara_Charge_2",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "Pengembara_Charge_3",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "Pengembara_Charge_4",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "Pengembara_Charge_5",
+       "duration": 0.08333333333333333
+      }
+     ],
+     "events": []
+    },
+    {
+     "name": "ChargeAttack",
+     "loop": false,
+     "frames": [
+      {
+       "sprite": "Pengembara_ChargeAttack_0",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "Pengembara_ChargeAttack_1",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "Pengembara_ChargeAttack_2",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "Pengembara_ChargeAttack_3",
+       "duration": 0.14583333333333331
+      },
+      {
+       "sprite": "Pengembara_ChargeAttack_4",
+       "duration": 0.10416666666666666
+      },
+      {
+       "sprite": "Pengembara_ChargeAttack_5",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "Pengembara_ChargeAttack_6",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "Pengembara_ChargeAttack_7",
+       "duration": 0.08333333333333333
+      }
+     ],
+     "events": [
+      {
+       "frame": 1,
+       "function": "OnChargeSwing"
+      },
+      {
+       "frame": 3,
+       "function": "OnChargeImpact"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Zeus",
+   "prefix": "PengembaraZeus",
+   "attackTip": [
+    1.2225,
+    0.7644
+   ],
+   "chargeTip": [
+    0.1301,
+    1.7761
+   ],
+   "chargeGlow": [
+    0.2746,
+    1.7231
+   ],
+   "clips": [
+    {
+     "name": "Idle",
+     "loop": true,
+     "frames": [
+      {
+       "sprite": "PengembaraZeus_Idle_0",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_Idle_1",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_Idle_2",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_Idle_3",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_Idle_4",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_Idle_5",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_Idle_6",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_Idle_7",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_Idle_8",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_Idle_9",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_Idle_10",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_Idle_11",
+       "duration": 0.125
+      }
+     ],
+     "events": []
+    },
+    {
+     "name": "Walk",
+     "loop": true,
+     "frames": [
+      {
+       "sprite": "PengembaraZeus_Walk_0",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraZeus_Walk_1",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraZeus_Walk_2",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraZeus_Walk_3",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraZeus_Walk_4",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraZeus_Walk_5",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraZeus_Walk_6",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraZeus_Walk_7",
+       "duration": 0.041666666666666664
+      }
+     ],
+     "events": [
+      {
+       "frame": 0,
+       "function": "OnFootstep"
+      },
+      {
+       "frame": 4,
+       "function": "OnFootstep"
+      }
+     ]
+    },
+    {
+     "name": "Attack",
+     "loop": false,
+     "frames": [
+      {
+       "sprite": "PengembaraZeus_Attack_0",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "PengembaraZeus_Attack_1",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraZeus_Attack_2",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraZeus_Attack_3",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "PengembaraZeus_Attack_4",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraZeus_Attack_5",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraZeus_Attack_6",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraZeus_Attack_7",
+       "duration": 0.0625
+      }
+     ],
+     "events": [
+      {
+       "frame": 1,
+       "function": "OnAttackSwing"
+      },
+      {
+       "frame": 3,
+       "function": "OnAttackImpact"
+      }
+     ]
+    },
+    {
+     "name": "Charge",
+     "loop": true,
+     "frames": [
+      {
+       "sprite": "PengembaraZeus_Charge_0",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraZeus_Charge_1",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraZeus_Charge_2",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraZeus_Charge_3",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraZeus_Charge_4",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraZeus_Charge_5",
+       "duration": 0.08333333333333333
+      }
+     ],
+     "events": []
+    },
+    {
+     "name": "ChargeAttack",
+     "loop": false,
+     "frames": [
+      {
+       "sprite": "PengembaraZeus_ChargeAttack_0",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "PengembaraZeus_ChargeAttack_1",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "PengembaraZeus_ChargeAttack_2",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_ChargeAttack_3",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraZeus_ChargeAttack_4",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraZeus_ChargeAttack_5",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraZeus_ChargeAttack_6",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraZeus_ChargeAttack_7",
+       "duration": 0.0625
+      }
+     ],
+     "events": [
+      {
+       "frame": 1,
+       "function": "OnChargeSwing"
+      },
+      {
+       "frame": 2,
+       "function": "OnChargeImpact"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Wizard",
+   "prefix": "PengembaraWizard",
+   "attackTip": [
+    1.1187,
+    0.6021
+   ],
+   "chargeTip": [
+    1.1707,
+    0.4752
+   ],
+   "chargeGlow": [
+    0.9565,
+    0.989
+   ],
+   "clips": [
+    {
+     "name": "Idle",
+     "loop": true,
+     "frames": [
+      {
+       "sprite": "PengembaraWizard_Idle_0",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraWizard_Idle_1",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraWizard_Idle_2",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraWizard_Idle_3",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraWizard_Idle_4",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraWizard_Idle_5",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraWizard_Idle_6",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraWizard_Idle_7",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraWizard_Idle_8",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraWizard_Idle_9",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraWizard_Idle_10",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraWizard_Idle_11",
+       "duration": 0.125
+      }
+     ],
+     "events": []
+    },
+    {
+     "name": "Walk",
+     "loop": true,
+     "frames": [
+      {
+       "sprite": "PengembaraWizard_Walk_0",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraWizard_Walk_1",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraWizard_Walk_2",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraWizard_Walk_3",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraWizard_Walk_4",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraWizard_Walk_5",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraWizard_Walk_6",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraWizard_Walk_7",
+       "duration": 0.041666666666666664
+      }
+     ],
+     "events": [
+      {
+       "frame": 0,
+       "function": "OnFootstep"
+      },
+      {
+       "frame": 4,
+       "function": "OnFootstep"
+      }
+     ]
+    },
+    {
+     "name": "Attack",
+     "loop": false,
+     "frames": [
+      {
+       "sprite": "PengembaraWizard_Attack_0",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "PengembaraWizard_Attack_1",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "PengembaraWizard_Attack_2",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraWizard_Attack_3",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraWizard_Attack_4",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraWizard_Attack_5",
+       "duration": 0.08333333333333333
+      }
+     ],
+     "events": [
+      {
+       "frame": 0,
+       "function": "OnAttackSwing"
+      },
+      {
+       "frame": 2,
+       "function": "OnAttackImpact"
+      }
+     ]
+    },
+    {
+     "name": "Charge",
+     "loop": true,
+     "frames": [
+      {
+       "sprite": "PengembaraWizard_Charge_0",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraWizard_Charge_1",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraWizard_Charge_2",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraWizard_Charge_3",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraWizard_Charge_4",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraWizard_Charge_5",
+       "duration": 0.08333333333333333
+      }
+     ],
+     "events": []
+    },
+    {
+     "name": "ChargeAttack",
+     "loop": false,
+     "frames": [
+      {
+       "sprite": "PengembaraWizard_ChargeAttack_0",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "PengembaraWizard_ChargeAttack_1",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraWizard_ChargeAttack_2",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraWizard_ChargeAttack_3",
+       "duration": 0.10416666666666666
+      },
+      {
+       "sprite": "PengembaraWizard_ChargeAttack_4",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraWizard_ChargeAttack_5",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraWizard_ChargeAttack_6",
+       "duration": 0.08333333333333333
+      }
+     ],
+     "events": [
+      {
+       "frame": 1,
+       "function": "OnChargeSwing"
+      },
+      {
+       "frame": 2,
+       "function": "OnChargeImpact"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Fist",
+   "prefix": "PengembaraFist",
+   "attackTip": [
+    0.5811,
+    0.6668
+   ],
+   "chargeTip": [
+    0.6843,
+    0.6145
+   ],
+   "chargeGlow": [
+    -0.0451,
+    0.357
+   ],
+   "clips": [
+    {
+     "name": "Idle",
+     "loop": true,
+     "frames": [
+      {
+       "sprite": "PengembaraFist_Idle_0",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraFist_Idle_1",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraFist_Idle_2",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraFist_Idle_3",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraFist_Idle_4",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraFist_Idle_5",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraFist_Idle_6",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraFist_Idle_7",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraFist_Idle_8",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraFist_Idle_9",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraFist_Idle_10",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraFist_Idle_11",
+       "duration": 0.125
+      }
+     ],
+     "events": []
+    },
+    {
+     "name": "Walk",
+     "loop": true,
+     "frames": [
+      {
+       "sprite": "PengembaraFist_Walk_0",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraFist_Walk_1",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraFist_Walk_2",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraFist_Walk_3",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraFist_Walk_4",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraFist_Walk_5",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraFist_Walk_6",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraFist_Walk_7",
+       "duration": 0.041666666666666664
+      }
+     ],
+     "events": [
+      {
+       "frame": 0,
+       "function": "OnFootstep"
+      },
+      {
+       "frame": 4,
+       "function": "OnFootstep"
+      }
+     ]
+    },
+    {
+     "name": "Attack",
+     "loop": false,
+     "frames": [
+      {
+       "sprite": "PengembaraFist_Attack_0",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraFist_Attack_1",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraFist_Attack_2",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "PengembaraFist_Attack_3",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "PengembaraFist_Attack_4",
+       "duration": 0.0625
+      }
+     ],
+     "events": [
+      {
+       "frame": 0,
+       "function": "OnAttackSwing"
+      },
+      {
+       "frame": 2,
+       "function": "OnAttackImpact"
+      }
+     ]
+    },
+    {
+     "name": "Charge",
+     "loop": true,
+     "frames": [
+      {
+       "sprite": "PengembaraFist_Charge_0",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraFist_Charge_1",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraFist_Charge_2",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraFist_Charge_3",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraFist_Charge_4",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraFist_Charge_5",
+       "duration": 0.08333333333333333
+      }
+     ],
+     "events": []
+    },
+    {
+     "name": "ChargeAttack",
+     "loop": false,
+     "frames": [
+      {
+       "sprite": "PengembaraFist_ChargeAttack_0",
+       "duration": 0.0625
+      },
+      {
+       "sprite": "PengembaraFist_ChargeAttack_1",
+       "duration": 0.041666666666666664
+      },
+      {
+       "sprite": "PengembaraFist_ChargeAttack_2",
+       "duration": 0.125
+      },
+      {
+       "sprite": "PengembaraFist_ChargeAttack_3",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraFist_ChargeAttack_4",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraFist_ChargeAttack_5",
+       "duration": 0.08333333333333333
+      },
+      {
+       "sprite": "PengembaraFist_ChargeAttack_6",
+       "duration": 0.0625
+      }
+     ],
+     "events": [
+      {
+       "frame": 0,
+       "function": "OnChargeSwing"
+      },
+      {
+       "frame": 2,
+       "function": "OnChargeImpact"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

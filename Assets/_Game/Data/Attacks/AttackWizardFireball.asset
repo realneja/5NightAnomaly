@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ddd266d06704f3fa1c1cd749ec34c6, type: 3}
+  m_Name: AttackWizardFireball
+  m_EditorClassIdentifier: Assembly-CSharp::FiveNightAnomaly.Combat.ProjectileAttack
+  damage: 15
+  heavy: 0
+  tip: {x: 1.1187, y: 0.6021}
+  swingSound: {fileID: 8300000, guid: f40cc0b364d8b4fa2a3d1591fcaa22a0, type: 3}
+  releaseSound: {fileID: 0}
+  volume: 0.8
+  pitch: 1
+  projectile: {fileID: 7153140258028598543, guid: f2e2677c8b23d4737802a49ed8a8a4cb, type: 3}
+  speed: 8
+  range: 10
+  depth: 0.35
+  area: {x: 0, y: 0}
+  scale: 1
+  impactEffect: {fileID: 1701149336783414961, guid: 1db1c141eedbc453b962bdef778559a7, type: 3}
+  effectOnGround: 0
+  impactSound: {fileID: 8300000, guid: e72d9030670b548fd9f405c40bddfb39, type: 3}

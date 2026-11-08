@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Sky
+    uniqueID: 800466646
+    locked: 0
+  - name: FarForest
+    uniqueID: 926707847
+    locked: 0
+  - name: MidForest
+    uniqueID: 2480752960
+    locked: 0
+  - name: Ground
+    uniqueID: 3803529630
+    locked: 0
+  - name: Objects
+    uniqueID: 1504818033
+    locked: 0
+  - name: Characters
+    uniqueID: 4235129593
+    locked: 0
+  - name: FX
+    uniqueID: 1825785779
+    locked: 0
+  - name: Foreground
+    uniqueID: 3647682272
+    locked: 0
+  - name: UI
+    uniqueID: 2079568635
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []

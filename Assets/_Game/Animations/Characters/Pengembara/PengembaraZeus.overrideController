@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PengembaraZeus
+  m_Controller: {fileID: 9100000, guid: caca331395cc94c34985d92f63b3b7a9, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 13e341d1038b147cea9247c9df4bbb3d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a9d4ce44ff6234fd0833f9eb35a7d89b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: d1186cd2ce91646b1bef370d65ac58bf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8c888925ee18d41669494f7ec9144faa, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7183b9067e98d4bfe8300dbf3a577945, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7bd3442de63c04069b11d6e5035e82e1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 01f1e954dfb324ac48fdf53efa3f7cd8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c64438c6a8ef34ab99fafbce5368e9da, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c89a2df4d759b48d2b837f04a9c13c79, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dcce7872b4a854bf58ee2136cc091be0, type: 2}

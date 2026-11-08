@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8afbd65bf69845f1bca2180bd96ac43, type: 3}
+  m_Name: HandZeus
+  m_EditorClassIdentifier: Assembly-CSharp::FiveNightAnomaly.Combat.HandItem
+  displayName: Petir Zeus
+  animations: {fileID: 22100000, guid: 0822c4bf86feb4c288c6921fb22ff502, type: 2}
+  attack: {fileID: 11400000, guid: 59eb75649333143cbb9af488cb391b0b, type: 2}
+  chargeAttack: {fileID: 11400000, guid: a59297cac5cf749f98cdd374f54d7f30, type: 2}
+  chargeTime: 0.8
+  chargeGlow:
+  - {fileID: 21300000, guid: 88833184e5c3a40afbfee50aa1fd8e39, type: 3}
+  - {fileID: 21300000, guid: 0592bc36b854b4532893401b770ba0e9, type: 3}
+  - {fileID: 21300000, guid: 93a33e773ceb341f7b8a13ad823487cc, type: 3}
+  - {fileID: 21300000, guid: 065092cfb787d48fdbe0b3dcfd645983, type: 3}
+  chargeGlowOffset: {x: 0.2746, y: 1.7231}
+  chargeGlowScale: 1
+  chargeLoop: {fileID: 8300000, guid: 7214362aa353c4a31b69b84f57486464, type: 3}

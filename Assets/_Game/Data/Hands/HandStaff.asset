@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8afbd65bf69845f1bca2180bd96ac43, type: 3}
+  m_Name: HandStaff
+  m_EditorClassIdentifier: Assembly-CSharp::FiveNightAnomaly.Combat.HandItem
+  displayName: Tongkat lentera
+  animations: {fileID: 9100000, guid: caca331395cc94c34985d92f63b3b7a9, type: 2}
+  attack: {fileID: 11400000, guid: f820a30370f904386b49d9bb2e90a119, type: 2}
+  chargeAttack: {fileID: 11400000, guid: bf1888af86e54410b935b2d9dc584df9, type: 2}
+  chargeTime: 0.6
+  chargeGlow:
+  - {fileID: 21300000, guid: 0ac78da5512ad48b3abdb69683013885, type: 3}
+  - {fileID: 21300000, guid: dab2fafe8470c45e892bc5d41060b633, type: 3}
+  - {fileID: 21300000, guid: 55a3b8054d21c4a8bb7e011eeb00ca53, type: 3}
+  - {fileID: 21300000, guid: 3d064229b5c1441618579671c47cc1bd, type: 3}
+  chargeGlowOffset: {x: 0.8502, y: 0.8207}
+  chargeGlowScale: 1
+  chargeLoop: {fileID: 8300000, guid: 81aba71e705304d279f4a3df8c964024, type: 3}
